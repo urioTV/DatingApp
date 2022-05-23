@@ -15,6 +15,7 @@ specifiers:
   '@types/jasmine': ~3.8.0
   '@types/node': ^12.11.1
   bootstrap: ^4.5.3
+  bootswatch: ^5.1.3
   font-awesome: ^4.7.0
   jasmine-core: ~3.8.0
   karma: ~6.3.0
@@ -23,6 +24,7 @@ specifiers:
   karma-jasmine: ~4.0.0
   karma-jasmine-html-reporter: ~1.7.0
   ngx-bootstrap: 7.1.2
+  ngx-toastr: ^14.3.0
   rxjs: ~6.6.0
   tslib: ^2.3.0
   typescript: ~4.3.5
@@ -38,8 +40,10 @@ dependencies:
   '@angular/platform-browser-dynamic': 12.2.16_tk5jg5zhis7s2w7gaivdbjmch4
   '@angular/router': 12.2.16_mkqvoiprcf4ld42gjf3h4clm4q
   bootstrap: 4.6.1
+  bootswatch: 5.1.3
   font-awesome: 4.7.0
   ngx-bootstrap: 7.1.2_wlhrmmlwp3e5yw4usyvivqnawy
+  ngx-toastr: 14.3.0_t3idpkjxmhtz3ro2dv2ukgjcfm
   rxjs: 6.6.7
   tslib: 2.4.0
   zone.js: 0.11.5
@@ -2438,6 +2442,10 @@ packages:
     peerDependencies:
       jquery: 1.9.1 - 3
       popper.js: ^1.16.1
+    dev: false
+
+  /bootswatch/5.1.3:
+    resolution: {integrity: sha512-NmZFN6rOCoXWQ/PkzmD8FFWDe24kocX9OXWHNVaLxVVnpqpAzEbMFsf8bAfKwVtpNXibasZCzv09B5fLieAh2g==}
     dev: false
 
   /brace-expansion/1.1.11:
@@ -5634,6 +5642,19 @@ packages:
       '@angular/common': 12.2.16_wg5cpvw6b54u2dgutrs2a2rg2m
       '@angular/core': 12.2.16_rxjs@6.6.7+zone.js@0.11.5
       '@angular/forms': 12.2.16_mkqvoiprcf4ld42gjf3h4clm4q
+      tslib: 2.4.0
+    dev: false
+
+  /ngx-toastr/14.3.0_t3idpkjxmhtz3ro2dv2ukgjcfm:
+    resolution: {integrity: sha512-d8j/sOr60w5U7rGlcKQ0Ff4u+m2NzhqU5ZdJXn7QW3aR3Zf/rY7/Fd14BmUindTOWVr2NeTYcQXCjLpir0ldpA==}
+    peerDependencies:
+      '@angular/common': '>=12.0.0-0'
+      '@angular/core': '>=12.0.0-0'
+      '@angular/platform-browser': '>=12.0.0-0'
+    dependencies:
+      '@angular/common': 12.2.16_wg5cpvw6b54u2dgutrs2a2rg2m
+      '@angular/core': 12.2.16_rxjs@6.6.7+zone.js@0.11.5
+      '@angular/platform-browser': 12.2.16_6vfu5hxfyqsufaicqluldoy62a
       tslib: 2.4.0
     dev: false
 
